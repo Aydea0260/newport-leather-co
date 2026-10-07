@@ -5,7 +5,8 @@
   function money(s){ return s; }
 
   function card(p){
-    var badge = p.status === "coming_soon" ? '<span class="badge">Coming soon</span>' : "";
+    var badge = p.status === "live" ? '<span class="badge new">On Etsy</span>' : '<span class="badge">Coming soon</span>';
+    var cta = p.url ? '<a class="buy" href="' + p.url + '" target="_blank" rel="noopener">Buy on Etsy</a>' : "";
     return '<article class="card">' +
       '<div class="ph">' + badge +
       '<img src="' + p.image + '" alt="' + p.name + '" loading="lazy"></div>' +
@@ -13,7 +14,7 @@
       '<p class="blurb">' + p.blurb + "</p>" +
       '<div class="price">' + money(p.price) + "</div>" +
       '<div class="colors">' + p.colors + "</div>" +
-      '<div class="ship">' + p.shipping + "</div></div></article>";
+      '<div class="ship">' + p.shipping + "</div>" + cta + "</div></article>";
   }
 
   fetch("products.json").then(function(r){ return r.json(); }).then(function(products){
