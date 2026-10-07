@@ -1,0 +1,100 @@
+[
+  {
+    "badge": "Bestseller",
+    "category": "crossbody",
+    "colors": [
+      "Cognac",
+      "Espresso",
+      "Black"
+    ],
+    "description": "A compact everyday crossbody cut from full-grain leather, with an adjustable strap and just enough room for the essentials.",
+    "id": "harbor-crossbody",
+    "name": "Harbor Crossbody",
+    "price": 139
+  },
+  {
+    "badge": null,
+    "category": "crossbody",
+    "colors": [
+      "Tan",
+      "Cognac"
+    ],
+    "description": "A petite crossbody for light days — phone, cards, and keys carried in soft, supple leather.",
+    "id": "marina-mini-crossbody",
+    "name": "Marina Mini Crossbody",
+    "price": 129
+  },
+  {
+    "badge": "New",
+    "category": "backpacks",
+    "colors": [
+      "Espresso",
+      "Black"
+    ],
+    "description": "A slim silhouette that carries the workday without the bulk, finished with solid brass hardware.",
+    "id": "coastline-slim-backpack",
+    "name": "Coastline Slim Backpack",
+    "price": 159
+  },
+  {
+    "badge": null,
+    "category": "backpacks",
+    "colors": [
+      "Cognac",
+      "Espresso"
+    ],
+    "description": "Our do-everything backpack: padded laptop sleeve, magnetic closures, and leather that ages beautifully.",
+    "id": "ridgeline-backpack",
+    "name": "Ridgeline Everyday Backpack",
+    "price": 169
+  },
+  {
+    "badge": "Bestseller",
+    "category": "travel",
+    "colors": [
+      "Cognac",
+      "Espresso"
+    ],
+    "description": "A cabin-ready weekender with a wide-mouth opening and a reinforced base built for years of trips.",
+    "id": "voyager-weekender",
+    "name": "Voyager Weekender",
+    "price": 229
+  },
+  {
+    "badge": null,
+    "category": "travel",
+    "colors": [
+      "Espresso",
+      "Black"
+    ],
+    "description": "A rugged travel duffle with hand-stitched handles and a detachable shoulder strap.",
+    "id": "summit-duffle",
+    "name": "Summit Travel Duffel",
+    "price": 219
+  },
+  {
+    "badge": "New",
+    "category": "tote",
+    "colors": [
+      "Tan",
+      "Cognac"
+    ],
+    "description": "An open-top carry tote for market runs and daily hauls, cut from a single hide for strength.",
+    "id": "market-carry-tote",
+    "name": "Market Carry Tote",
+    "price": 139
+  },
+  {
+    "badge": null,
+    "category": "tote",
+    "colors": [
+      "Espresso",
+      "Cognac",
+      "Black"
+    ],
+    "description": "A structured everyday tote with an interior zip pocket and comfortable rolled handles.",
+    "id": "boardwalk-tote",
+    "name": "Boardwalk Leather Tote",
+    "price": 149
+  }
+]
