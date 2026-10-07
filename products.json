@@ -1,1 +1,68 @@
-[{"blurb":"A richly textured bi-fold with a flip-up ID window — engraved with the Newport mark.","colors":"Black · Dark Brown · Light Brown · Gray · Rawhide · Rustic","id":"bifold-wallet","image":"assets/product-wallet.jpg","name":"Bi-Fold Wallet","price":"$49.99","shipping":"Made to order · Production up to 10 business days + transit · US shipping from $4.59","status":"coming_soon"},{"blurb":"A durable 100% nylon Taslon tote with a smooth matte finish, printed with the Newport mark.","colors":"Black · Bay · Ivory","id":"nomad-tote","image":"assets/product-tote.jpg","name":"Nomad Carry-All Tote","price":"$99.99","shipping":"Made to order · Production up to 10 business days + transit · US shipping from $5.89","status":"coming_soon"},{"blurb":"Tough polyester duffel with a waterproof-lined interior, printed with the Newport mark.","colors":"Black · Navy · Camo","id":"tripper-duffel","image":"assets/product-duffel.jpg","name":"Tripper Duffel Bag","price":"$69.99","shipping":"Made to order · Production up to 10 business days + transit · US shipping from $9.59","status":"coming_soon"},{"blurb":"Mid-weight 100% recycled polyester backpack, printed with the Newport mark.","colors":"Black","id":"everyday-backpack","image":"assets/product-backpack.jpg","name":"Everyday Backpack","price":"$89.99","shipping":"Made to order · Production up to 10 business days + transit · US shipping from $9.59","status":"coming_soon"},{"blurb":"100% polyester adidas backpack with a water-resistant base, embroidered with the Newport mark.","colors":"Navy · Black · Gray","id":"adidas-defender","image":"assets/product-adidas.jpg","name":"adidas Defender 5 Backpack","price":"$119.99","shipping":"Made to order · Production up to 10 business days + transit · US shipping from $9.69","status":"coming_soon"},{"blurb":"Lightweight quarter-zip pullover with the Newport mark on the chest.","colors":"Navy · Black · Olive · Gray","id":"windbreaker","image":"assets/product-windbreaker.jpg","name":"Windbreaker Pullover","price":"$79.99","shipping":"Made to order · Production up to 10 business days + transit · US shipping from $10.39","status":"coming_soon"}]
+[
+ {
+  "blurb": "A richly textured bi-fold with a flip-up ID window \u2014 engraved with the Newport mark.",
+  "colors": "Black \u00b7 Dark Brown \u00b7 Light Brown \u00b7 Gray \u00b7 Rawhide \u00b7 Rustic",
+  "id": "bifold-wallet",
+  "image": "assets/product-wallet.jpg",
+  "name": "Bi-Fold Wallet",
+  "price": "$49.99",
+  "shipping": "Made to order \u00b7 Production up to 10 business days + transit \u00b7 US shipping from $4.59",
+  "status": "live",
+  "url": "https://www.etsy.com/listing/4590797728/newport-leather-co-bi-fold-wallet-with"
+ },
+ {
+  "blurb": "A durable 100% nylon Taslon tote with a smooth matte finish, printed with the Newport mark.",
+  "colors": "Black \u00b7 Bay \u00b7 Ivory",
+  "id": "nomad-tote",
+  "image": "assets/product-tote.jpg",
+  "name": "Nomad Carry-All Tote",
+  "price": "$99.99",
+  "shipping": "Made to order \u00b7 Production up to 10 business days + transit \u00b7 US shipping from $5.89",
+  "status": "live",
+  "url": "https://www.etsy.com/listing/4590797638/newport-leather-co-nomad-carry-all-tote"
+ },
+ {
+  "blurb": "Tough polyester duffel with a waterproof-lined interior, printed with the Newport mark.",
+  "colors": "Black \u00b7 Navy \u00b7 Camo",
+  "id": "tripper-duffel",
+  "image": "assets/product-duffel.jpg",
+  "name": "Tripper Duffel Bag",
+  "price": "$69.99",
+  "shipping": "Made to order \u00b7 Production up to 10 business days + transit \u00b7 US shipping from $9.59",
+  "status": "live",
+  "url": "https://www.etsy.com/listing/4590786095/newport-leather-co-tripper-duffel-bag"
+ },
+ {
+  "blurb": "Mid-weight 100% recycled polyester backpack, printed with the Newport mark.",
+  "colors": "Black",
+  "id": "everyday-backpack",
+  "image": "assets/product-backpack.jpg",
+  "name": "Everyday Backpack",
+  "price": "$89.99",
+  "shipping": "Made to order \u00b7 Production up to 10 business days + transit \u00b7 US shipping from $9.59",
+  "status": "live",
+  "url": "https://www.etsy.com/listing/4590786165/newport-leather-co-everyday-backpack"
+ },
+ {
+  "blurb": "100% polyester adidas backpack with a water-resistant base, embroidered with the Newport mark.",
+  "colors": "Navy \u00b7 Black \u00b7 Gray",
+  "id": "adidas-defender",
+  "image": "assets/product-adidas.jpg",
+  "name": "adidas Defender 5 Backpack",
+  "price": "$119.99",
+  "shipping": "Made to order \u00b7 Production up to 10 business days + transit \u00b7 US shipping from $9.69",
+  "status": "live",
+  "url": "https://www.etsy.com/listing/4590797980/newport-leather-co-adidas-defender-5"
+ },
+ {
+  "blurb": "Lightweight quarter-zip pullover with the Newport mark on the chest.",
+  "colors": "Navy \u00b7 Black \u00b7 Olive \u00b7 Gray",
+  "id": "windbreaker",
+  "image": "assets/product-windbreaker.jpg",
+  "name": "Windbreaker Pullover",
+  "price": "$79.99",
+  "shipping": "Made to order \u00b7 Production up to 10 business days + transit \u00b7 US shipping from $10.39",
+  "status": "live",
+  "url": "https://www.etsy.com/listing/4590786367/newport-leather-co-unisex-windbreaker"
+ }
+]
