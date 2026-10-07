@@ -1,45 +1,24 @@
-// Newport Leather Co. — storefront logic
+// Newport Leather Co. — storefront logic (real products only)
 (function(){
   "use strict";
 
-  var IMG = {
-    "harbor-crossbody": "assets/harbor-crossbody.jpg",
-    "marina-mini-crossbody": "assets/marina-mini.jpg",
-    "coastline-slim-backpack": "assets/coastline-backpack.jpg",
-    "ridgeline-backpack": "assets/ridgeline-backpack.jpg",
-    "voyager-weekender": "assets/voyager-weekender.jpg",
-    "summit-duffle": "assets/summit-duffel.jpg",
-    "market-carry-tote": "assets/market-tote.jpg",
-    "boardwalk-tote": "assets/boardwalk-tote.jpg"
-  };
-
-  function money(n){ return "$" + n; }
+  function money(s){ return s; }
 
   function card(p){
-    var badge = p.badge ? '<span class="badge' + (p.badge === "New" ? " new" : "") + '">' + p.badge + "</span>" : "";
+    var badge = p.status === "coming_soon" ? '<span class="badge">Coming soon</span>' : "";
     return '<article class="card">' +
       '<div class="ph">' + badge +
-      '<img src="' + (IMG[p.id] || "assets/logo.png") + '" alt="' + p.name + '" loading="lazy"></div>' +
+      '<img src="' + p.image + '" alt="' + p.name + '" loading="lazy"></div>' +
       '<div class="info"><h3>' + p.name + "</h3>" +
+      '<p class="blurb">' + p.blurb + "</p>" +
       '<div class="price">' + money(p.price) + "</div>" +
-      '<div class="colors">' + p.colors.join(" · ") + "</div></div></article>";
+      '<div class="colors">' + p.colors + "</div>" +
+      '<div class="ship">' + p.shipping + "</div></div></article>";
   }
 
   fetch("products.json").then(function(r){ return r.json(); }).then(function(products){
     var grid = document.getElementById("prodGrid");
     if (grid) grid.innerHTML = products.map(card).join("");
-
-    // category tiles filter the grid
-    document.querySelectorAll(".cat").forEach(function(tile){
-      tile.addEventListener("click", function(){
-        var cat = tile.getAttribute("data-cat");
-        var list = products.filter(function(p){ return p.category === cat; });
-        if (grid && list.length) {
-          grid.innerHTML = list.map(card).join("");
-          document.getElementById("shop").scrollIntoView({behavior:"smooth"});
-        }
-      });
-    });
   }).catch(function(){ /* static fallback: grid stays empty */ });
 
   // mobile nav
